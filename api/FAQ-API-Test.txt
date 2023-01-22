@@ -1,13 +1,13 @@
 {
-  "category":"Screen recovery",
-  "quetion":{
-    "lang":"en",
-  "Qcontent":"How much warent"
+  "categoryId":"63a175e60782618d112d7981",
+  "question":{
+    "language":"en",
+  "question_content":"How much warent"
     
   },
-  "ans":{
-    "lang":"en",
-  "Acontent":"2-Years"
+  "answer":{
+    "language":"en",
+  "answer_content":"2-Years"
     
   }
 }
