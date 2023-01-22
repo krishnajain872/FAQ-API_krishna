@@ -11,11 +11,13 @@ port = process.env.PORT || 3001;
 
 // DataBase Connections
 require("./database/connection")
+// require("./database/connection1")
 
 
 // Routes
 
 app.use(require("./api/FAQ"));
+app.use(require("./api/Category"));
 
 
 

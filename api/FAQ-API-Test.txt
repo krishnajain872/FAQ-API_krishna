@@ -1,13 +1,5 @@
 {
   "categoryId":"63a175e60782618d112d7981",
-  "question":{
-    "language":"en",
-  "question_content":"How much warent"
-    
-  },
-  "answer":{
-    "language":"en",
-  "answer_content":"2-Years"
-    
-  }
+  "question":"How much warent",
+  "answer":"2-Years"
 }

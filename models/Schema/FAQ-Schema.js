@@ -11,25 +11,18 @@ const FAQ_Schema = mongoose.Schema(
 
 		},
 		question: {
-			language: {
-				type: String,
-				required: true
-			},
-			question_content: {
-				type: String,
-				required: true
-			}
-		},
-		answer: {
-			language: {
-				type: String,
-				// required: true
-			},
-			answer_content: {
-				type: String,
-				// required: true
-			}
+
+			type: String,
+			required: true
 		}
+		,
+		answer: {
+
+
+			type: String,
+			required: true
+		}
+
 	}
 	, { timestamps: true })
 module.exports = FAQ = FAQ_Schema;

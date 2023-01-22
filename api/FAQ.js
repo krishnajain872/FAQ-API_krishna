@@ -31,14 +31,10 @@ router.post("/faq", async (req, res) => {
 	try {
 		const FAQ = new FAQModel({
 			categoryId: req.body.categoryId,
-			question: {
-				language: req.body.question.language,
-				question_content: req.body.question.question_content
-			},
-			answer: {
-				language: req.body.answer.language,
-				answer_content: req.body.answer.answer_content
-			}
+			question: req.body.question
+			,
+			answer: req.body.answer
+
 		});
 
 		console.log(FAQ);
