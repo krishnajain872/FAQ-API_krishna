@@ -1,0 +1,5 @@
+{
+  "name":"REPAIR",
+  "description":"this is electronic category",
+  "deleted":false
+}
